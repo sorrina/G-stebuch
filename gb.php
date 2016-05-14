@@ -30,7 +30,7 @@ foreach($texte as $text){
 }
 echo '<a href="?new">neuer Beitrag</a>';
 echo 'test';
-
+echo ' test mit atom';
 
 
 //Einf�gen
