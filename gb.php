@@ -29,6 +29,7 @@ foreach($texte as $text){
 	echo' <a href="?edit='.$text["id"].'">bearbeiten</a></br>';
 }
 echo '<a href="?new">neuer Beitrag</a>';
+echo 'test';
 
 
 
@@ -46,7 +47,7 @@ if(isset($_GET["new"])){
 	       $database->insert("gb", array("name" => $_POST["name"],
 								         "nachricht" => $_POST["nachricht"],
 								        "datum" => date("Y.m.d")));
-    }                                   
+    }
 }
 
 
